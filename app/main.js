@@ -3,9 +3,18 @@
  ======================================*/
 
 $(document).ready(function() {
-    $('body').scrollspy(
-        {
-            target: '#target-nav'
+
+    /*Call pagepiling plugin */
+        $('#pagepiling').pagepiling({
+            loopTop: true,
+            loopBottom: true,
+            keyboardScrolling: true,
+            verticalCentered: false,
+            navigation: {
+                'bulletsColor': '#000',
+                'position': 'right',
+                'tooltips': false
+            },
         });
 
     $("#status").fadeOut("slow");

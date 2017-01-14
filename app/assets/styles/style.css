@@ -1,6 +1,11 @@
 @font-face {
-    font-family: SofiaPro Bold;
-    src: url("/app/assets/fonts/SofiaProBold.otf") format("opentype");
+    font-family: 'Montserrat Bold';
+    src: url("../fonts/Montserrat-Bold.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Light';
+    src: url("../fonts/HelveticaNeue-Light.otf")
 }
 
 *{
@@ -12,6 +17,7 @@ body{
     overflow: auto !important;
     height: 100vh;
     position: relative;
+    font-family: "Helvetica Neue Light", sans-serif;
 }
 
 footer{
@@ -41,7 +47,43 @@ footer{
     padding: 0;
 }
 
-/*Hello World Section*/
-.welcome-title{
+/*Add white background to sections*/
+.section{
+    background: white;
+}
+
+/*Remove navbar background and stylize brand*/
+.navbar{
+    background: none !important;
+}
+.brand{
+    font-family:"Montserrat Bold", sans-serif;
+}
+.navbar-brand{
+    font-family: "Montserrat Bold", sans-serif;
+    color: #333 !important;
+    transition: .3s all ease-in;
+}
+.navbar-brand:hover{
+    color: #5c6791 !important;
+    cursor: pointer;
+}
+
+/*Hello World Screen*/
+.intro{
+    margin: 1.25rem;
+}
+.avatar{
+    width: 100%;
+    height: 100%;
+    max-width: 15%;
+    max-height: 15%;
+    margin: 20px;
 
 }
+.my-name{
+    font: 2.4rem "Montserrat Bold", sans-serif;
+    color: #5c6791;
+}
+
+

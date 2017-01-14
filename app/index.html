@@ -22,6 +22,9 @@
     <!-- Styling -->
     <link rel="stylesheet" href="./assets/styles/style.css">
 
+    <!--Mouse Scrolling Animation -->
+    <link rel="stylesheet" href="./assets/styles/mouseScroll.css">
+
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
             integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
@@ -57,7 +60,7 @@
                 aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#">desiphic</a>
+        <a class="navbar-brand" href="index.html">desiphic</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -87,44 +90,51 @@
         </div>
     </div>
 
-    <div>
-        <div class="container-fluid hello-world">
-            <div class="row">
-                <h1>Hi, my name is <span class="my-name">Maria</span></h1>
-            </div>
+    <div id="pagepiling">
+        <div class="container-fluid hello-world section">
+            
+            <div class="intro">
+                <div class="row">
+                    <img src="./assets/img/avatar.png" alt="" class="avatar img-fluid mx-auto d-block">
+                </div>
+                <div class="row">
+                    <h2 class="container-fluid">Hi, my name is <span class="my-name">Maria</span></h2>
+                </div>
 
-            <div class="row">
-                <h3>The one (wo)man army behind desiphic</h3>
+                <div class="row">
+                    <h6 class="container-fluid">The one (wo)man army behind <span class="brand">desiphic</span></h6>
+                </div>
             </div>
 
             <div class="row">
                 <div class="col-sm-3">
-                    <p>Gluten-free synth cold-pressed iPhone, scenester iceland
-                        pitchfork green juice pok pok pork belly thundercats paleo
-                        poutine deep v organic. Butcher aesthetic migas twee, raw denim
-                        yr yuccie authentic artisan organic shoreditch VHS slow-carb chia sriracha.
+                </div>
+                <div class="col-sm-3">
+                    <p>19 years old, born in Bulgaria. Currently pursuing a bachelor's degree
+                        in Graphic and Media Design at UAL.
                     </p>
                 </div>
 
                 <div class="col-sm-3">
-                    <p>Gluten-free synth cold-pressed iPhone, scenester iceland
-                        pitchfork green juice pok pok pork belly thundercats paleo
-                        poutine deep v organic. Butcher aesthetic migas twee, raw denim
-                        yr yuccie authentic artisan organic shoreditch VHS slow-carb chia sriracha.
+                    <p>I have a passion for UI/UX design, front-end development and image making. I enjoy simple
+                        typography and line art.
                     </p>
                 </div>
 
-                <div class="col-sm-3">
-                    <p>Gluten-free synth cold-pressed iPhone, scenester iceland
-                        pitchfork green juice pok pok pork belly thundercats paleo
-                        poutine deep v organic. Butcher aesthetic migas twee, raw denim
-                        yr yuccie authentic artisan organic shoreditch VHS slow-carb chia sriracha.
-                    </p>
-                </div>
             </div>
+
+            <span class="scroll-btn">
+	            <a href="#">
+		            <span class="mouse">
+			            <span>
+                        </span>
+		            </span>
+	            </a>
+                <p class="scroll">scroll me</p>
+            </span>
         </div>
 
-        <div class="container-fluid work">
+        <div class="container-fluid work section">
             <div class="row">
                 <h1 class="title">Work</h1>
             </div>
@@ -217,7 +227,7 @@
             </div>
         </div>
 
-        <div class="container-fluid skills">
+        <div class="container-fluid skills section">
             <div class="row">
                 <h1>Skills</h1>
             </div>
@@ -393,7 +403,7 @@
         </div>
         </div>
 
-        <div class="container-fluid contact">
+        <div class="container-fluid contact section">
             <div class="row">
                 <h1>Where to find me</h1>
             </div>
