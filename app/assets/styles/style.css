@@ -1,0 +1,47 @@
+@font-face {
+    font-family: SofiaPro Bold;
+    src: url("/app/assets/fonts/SofiaProBold.otf") format("opentype");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: auto !important;
+    height: 100vh;
+    position: relative;
+}
+
+footer{
+    position: static !important;
+}
+
+/*Preloader Div Style*/
+#preloader {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    z-index: 99999;
+    height: 100%;
+}
+
+#status {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 64px;
+    height: 64px;
+    margin: -32px 0 0 -32px;
+    padding: 0;
+}
+
+/*Hello World Section*/
+.welcome-title{
+
+}
