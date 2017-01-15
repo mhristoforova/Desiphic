@@ -7,7 +7,7 @@ $(document).ready(function() {
             keyboardScrolling: true,
             verticalCentered: false,
             navigation: {
-                'bulletsColor': '#000',
+                'bulletsColor':false,
                 'position': 'right',
                 'tooltips': false
             },
