@@ -109,10 +109,16 @@ h1{
 .caption-hover {
 }
 
+/*Skills Screens*/
+.intro-skills{
+    padding: .5rem 0 0 1.25rem;
+}
+
+/*Contacts Screen*/
 .social-icons{
     padding: 0.75rem 0 0 1rem;
 }
-/*Contacts Screen*/
+
 .fa-contact-screen{
     color: #333;
     padding: 1rem;
@@ -126,7 +132,7 @@ h1{
 }
 
 .goodbye-message{
-    padding: 8rem 0 0 1rem;
+    padding: 8rem 0 0 1.25rem;
 }
 
 .insta-title{

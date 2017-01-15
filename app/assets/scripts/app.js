@@ -1,7 +1,3 @@
-/*====================================
- Preloader Function
- ======================================*/
-
 $(document).ready(function() {
 
     /*Call pagepiling plugin */
