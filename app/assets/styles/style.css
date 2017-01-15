@@ -102,6 +102,9 @@ h1{
     padding: .5rem 0 0 2.5rem;
 }
 
+.grid{
+    padding: 0 2rem;
+}
 .project-thumbnail{
     margin-left:0;
     padding-left: 0;
@@ -110,11 +113,17 @@ h1{
 }
 
 /*Skills Screens*/
+.skills{
+    padding: 0 2rem;
+}
 .intro-skills{
     padding: .5rem 0 0 1.25rem;
 }
 
 /*Contacts Screen*/
+.contact{
+    padding: 0 2rem;
+}
 .social-icons{
     padding: 0.75rem 0 0 1rem;
 }

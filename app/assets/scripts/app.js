@@ -2,8 +2,8 @@ $(document).ready(function() {
 
     /*Call pagepiling plugin */
         $('#pagepiling').pagepiling({
-            loopTop: false,
-            loopBottom: false,
+            loopTop: true,
+            loopBottom: true,
             keyboardScrolling: true,
             verticalCentered: false,
             navigation: {
