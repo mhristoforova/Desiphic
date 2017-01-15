@@ -6,8 +6,8 @@ $(document).ready(function() {
 
     /*Call pagepiling plugin */
         $('#pagepiling').pagepiling({
-            loopTop: true,
-            loopBottom: true,
+            loopTop: false,
+            loopBottom: false,
             keyboardScrolling: true,
             verticalCentered: false,
             navigation: {
@@ -17,7 +17,7 @@ $(document).ready(function() {
             },
         });
 
-    $("#status").fadeOut("slow");
-    $("#preloader").delay(500).fadeOut("slow").remove();
+    /*$("#status").fadeOut("slow");
+    $("#preloader").delay(500).fadeOut("slow").remove();*/
 
 });

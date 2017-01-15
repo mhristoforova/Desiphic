@@ -21,7 +21,15 @@ body{
 }
 
 footer{
-    position: static !important;
+    position: absolute;
+    bottom: 0;
+    z-index: 100000000;
+    margin-left: 40%;
+}
+
+h1{
+    font-family: "Montserrat Bold", sans-serif;
+    padding: 2.5rem 0 0 2.5rem;
 }
 
 /*Preloader Div Style*/
@@ -54,7 +62,7 @@ footer{
 
 /*Remove navbar background and stylize brand*/
 .navbar{
-    background: none !important;
+    background: white !important;
 }
 .brand{
     font-family:"Montserrat Bold", sans-serif;
@@ -76,8 +84,7 @@ footer{
 .avatar{
     width: 100%;
     height: 100%;
-    max-width: 15%;
-    max-height: 15%;
+    max-width: 20%;
     margin: 20px;
 
 }
@@ -86,4 +93,50 @@ footer{
     color: #5c6791;
 }
 
+/*Work Screen*/
+.work{
 
+}
+
+.intro-work{
+    padding: .5rem 0 0 2.5rem;
+}
+
+.project-thumbnail{
+    margin-left:0;
+    padding-left: 0;
+}
+.caption-hover {
+}
+
+.social-icons{
+    padding: 0.75rem 0 0 1rem;
+}
+/*Contacts Screen*/
+.fa-contact-screen{
+    color: #333;
+    padding: 1rem;
+    border-radius: 50%;
+    transition: .3s all ease-in;
+}
+
+.fa-contact-screen:hover{
+    color: #5c6791;
+    cursor: pointer;
+}
+
+.goodbye-message{
+    padding: 8rem 0 0 1rem;
+}
+
+.insta-title{
+    letter-spacing: 5px;
+}
+
+.signature{
+    position: absolute;
+    opacity: .3;
+    width: 275%;
+    top: 2.5rem;
+    left: -15rem;
+}
