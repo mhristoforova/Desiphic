@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url("../fonts/Montserrat-Bold.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Light';
+    src: url("../fonts/HelveticaNeue-Light.otf")
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: auto !important;
+    height: 100vh;
+    position: relative;
+    font-family: "Helvetica Neue Light", sans-serif;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    z-index: 100000000;
+    margin-left: 40%;
+}
+
+.big-avatar{
+    width: 100%;
+    max-width: 800px;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.title-greeting{
+    margin: 2.5rem;
+    letter-spacing: 2px;
+}
+
+.keywords{
+    font-family: "Montserrat Bold", sans-serif;
+    padding: 1rem 0;
+}
+
+.name{
+    color: #5c6791;
+}
+
+.social-icons{
+    padding: 0.75rem 0 0 1rem;
+}
+
+.fa-contact-screen{
+    color: #333;
+    padding:1.25rem 1.5rem 0 0;
+    border-radius: 50%;
+    transition: .3s all ease-in;
+}
+
+.fa-contact-screen:hover{
+    color: #5c6791;
+    cursor: pointer;
+}
