@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url("../fonts/Montserrat-Bold.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Light';
+    src: url("../fonts/HelveticaNeue-Light.otf")
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: auto !important;
+    height: 100vh;
+    position: relative;
+    font-family: "Helvetica Neue Light", sans-serif;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    z-index: 100000000;
+    margin-left: 40%;
+}
+
+h1{
+    font-family: "Montserrat Bold", sans-serif;
+    padding: 2.5rem 0 0 2.5rem;
+}
+
+.description-p{
+    padding: .5rem 0 0 2.5rem;
+}
