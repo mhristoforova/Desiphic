@@ -16,22 +16,26 @@
 body{
     overflow: auto !important;
     height: 100vh;
-    position: relative;
     font-family: "Helvetica Neue Light", sans-serif;
 }
 
 footer{
     position: absolute;
-    bottom: 0;
+    bottom: 100000;
     z-index: 100000000;
     margin-left: 40%;
 }
 
-h1{
+h1,
+h3{
     font-family: "Montserrat Bold", sans-serif;
     padding: 2.5rem 0 0 2.5rem;
 }
 
+h3{
+    font-family: "Helvetica Neue Light", sans-serif;
+    letter-spacing: 5px;
+}
 /*Remove navbar background and stylize brand*/
 .navbar{
     background: white !important;
@@ -50,28 +54,6 @@ h1{
 }
 
 .intro-project{
-    padding: .75rem 0 0 2.5rem;
+    padding: 1rem 0 1.5rem 2.5rem;
 }
 
-.image-feature{
-
-    background: url("../img/desiphic_big.png") no-repeat center center;
-    min-height: 24rem;
-    background-attachment: fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    overflow: hidden;
-}
-
-@media only screen and (max-width: 500px){
-
-.image-feature{
-    min-height: 20rem;
-}
-}
-
-.research{
-    height: 800px;
-}
