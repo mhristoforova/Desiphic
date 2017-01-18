@@ -3,7 +3,7 @@ body, html{
 }
 
 .image-feature{
-    background: url("../img/desiphic_big.png") no-repeat center center fixed;
+    background: url("../img/desiphic_big.png") no-repeat fixed;
     height: 24rem;
     position: static;
     background-size: cover;
