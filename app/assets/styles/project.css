@@ -27,6 +27,11 @@ footer{
     margin-left: 40%;
 }
 
+h1{
+    font-family: "Montserrat Bold", sans-serif;
+    padding: 2.5rem 0 0 2.5rem;
+}
+
 /*Remove navbar background and stylize brand*/
 .navbar{
     background: white !important;
@@ -44,39 +49,29 @@ footer{
     cursor: pointer;
 }
 
-.big-avatar{
-    width: 100%;
-    max-width: 800px;
-    padding-left: 2rem;
-    padding-bottom: 2rem;
+.intro-project{
+    padding: .75rem 0 0 2.5rem;
 }
 
-.title-greeting{
-    margin: 2.5rem;
-    letter-spacing: 2px;
+.image-feature{
+
+    background: url("../img/desiphic_big.png") no-repeat center center;
+    min-height: 24rem;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
 }
 
-.keywords{
-    font-family: "Montserrat Bold", sans-serif;
-    padding: 1rem 0;
+@media only screen and (max-width: 500px){
+
+.image-feature{
+    min-height: 20rem;
+}
 }
 
-.name{
-    color: #5c6791;
-}
-
-.social-icons{
-    padding: 0.75rem 0 0 1rem;
-}
-
-.fa-contact-screen{
-    color: #333;
-    padding:1.25rem 1.5rem 0 0;
-    border-radius: 50%;
-    transition: .3s all ease-in;
-}
-
-.fa-contact-screen:hover{
-    color: #5c6791;
-    cursor: pointer;
+.research{
+    height: 800px;
 }

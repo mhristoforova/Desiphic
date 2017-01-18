@@ -32,6 +32,23 @@ h1{
     padding: 2.5rem 0 0 2.5rem;
 }
 
+/*Remove navbar background and stylize brand*/
+.navbar{
+    background: white !important;
+}
+.brand{
+    font-family:"Montserrat Bold", sans-serif;
+}
+.navbar-brand{
+    font-family: "Montserrat Bold", sans-serif;
+    color: #333 !important;
+    transition: .3s all ease-in;
+}
+.navbar-brand:hover{
+    color: #5c6791 !important;
+    cursor: pointer;
+}
+
 .description-p{
     padding: .5rem 0 0 2.5rem;
 }

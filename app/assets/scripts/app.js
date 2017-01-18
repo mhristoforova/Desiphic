@@ -3,7 +3,7 @@ $(document).ready(function() {
     /*Call pagepiling plugin */
         $('#pagepiling').pagepiling({
             loopTop: true,
-            loopBottom: true,
+            loopBottom: false,
             keyboardScrolling: true,
             verticalCentered: false,
             navigation: {
