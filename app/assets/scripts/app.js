@@ -16,9 +16,9 @@ $(document).ready(function() {
     //Hide pagepiling if mobile
 
     $(window).resize(function () {
-        let viewportWidth = $(window).width();
+        let viewportWidth = Number($(window).width());
         if (viewportWidth < 500) {
-            $(".main-pile").removeAttr('pagepiling');
+            $("div#pagepiling").removeAttr('pagepiling');
         }
     });
 
