@@ -13,18 +13,24 @@
     padding: 0;
 }
 
+html{
+    height: 100%;
+    min-height: 100%;
+}
+
 body{
-    overflow: auto !important;
-    height: 100vh;
-    position: relative;
+    height: 100%;
+    overflow: scroll;
     font-family: "Helvetica Neue Light", sans-serif;
 }
 
-footer{
-    position: absolute;
-    bottom: 0;
-    z-index: 100000000;
-    margin-left: 40%;
+footer,
+footer p{
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
 }
 
 /*Remove navbar background and stylize brand*/

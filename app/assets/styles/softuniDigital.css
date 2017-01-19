@@ -1,0 +1,18 @@
+@media only screen and (max-width: 500px){
+
+    .image-feature{
+        min-height: 20rem;
+    }
+}
+
+
+.image-feature{
+    background: url("../img/digital-main.jpg") no-repeat center center;
+    min-height: 24rem;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
+}

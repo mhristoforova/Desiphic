@@ -13,6 +13,15 @@ $(document).ready(function() {
             },
         });
 
+    //Hide pagepiling if mobile
+
+    $(window).resize(function () {
+        let viewportWidth = $(window).width();
+        if (viewportWidth < 500) {
+            $(".main-pile").removeAttr('pagepiling');
+        }
+    });
+
     /*$("#status").fadeOut("slow");
     $("#preloader").delay(500).fadeOut("slow").remove();*/
 
