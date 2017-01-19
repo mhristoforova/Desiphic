@@ -36,6 +36,17 @@ h3{
     font-family: "Helvetica Neue Light", sans-serif;
     letter-spacing: 5px;
 }
+
+a{
+    color: #5c6791;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #5c6791;
+}
+
 /*Remove navbar background and stylize brand*/
 .navbar{
     background: white !important;
