@@ -18,11 +18,12 @@ html{
     min-height: 100%;
 }
 
-body{
+body {
     height: 100%;
     overflow: scroll;
     font-family: "Helvetica Neue Light", sans-serif;
 }
+
 
 footer,
 footer p{
@@ -37,9 +38,6 @@ h1{
     font-family: "Montserrat Bold", sans-serif;
     padding: 2.5rem 0 0 2.5rem;
 }
-
-/*Loader*/
-
 
 /*Add white background to sections*/
 .section{
@@ -128,7 +126,9 @@ h1{
     text-decoration: none;
 }
 #carousel {
-
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 /*Skills Screens*/

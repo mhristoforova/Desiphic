@@ -18,6 +18,7 @@ html, body {
     height:100%;
     position:absolute;
     width:100%;
+    padding: 2.5rem !important;
 }
 .pp-easing {
     -webkit-transition: all 1000ms cubic-bezier(0.550, 0.085, 0.000, 0.990);
@@ -115,12 +116,14 @@ html, body {
     font-family: arial, helvetica, sans-serif;
     white-space: nowrap;
     max-width: 220px;
+    margin-left: 1rem !important;
 }
 .pp-tooltip.right {
     right: 20px;
+    margin-left: 1rem !important;
 }
 .pp-tooltip.left {
-    left: 20px;
+    left: 40px;
 }
 .pp-scrollable{
     overflow-y: scroll;
