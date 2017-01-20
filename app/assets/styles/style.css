@@ -38,28 +38,8 @@ h1{
     padding: 2.5rem 0 0 2.5rem;
 }
 
-/*Preloader Div Style*/
-#preloader {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: white;
-    z-index: 99999;
-    height: 100%;
-}
+/*Loader*/
 
-#status {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 64px;
-    height: 64px;
-    margin: -32px 0 0 -32px;
-    padding: 0;
-}
 
 /*Add white background to sections*/
 .section{
@@ -92,6 +72,11 @@ h1{
     height: 100%;
     max-width: 20%;
     margin: 20px;
+    opacity:0;
+    -moz-transition: opacity 1s; /* Firefox 4 */
+    -webkit-transition: opacity 1s; /* Safari and Chrome */
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
 
 }
 .my-name{
@@ -142,6 +127,9 @@ h1{
     cursor: pointer;
     text-decoration: none;
 }
+#carousel {
+
+}
 
 /*Skills Screens*/
 .skills{
@@ -149,6 +137,44 @@ h1{
 }
 .intro-skills{
     padding: .5rem 0 0 1.25rem;
+}
+.icon{
+    width: 100%;
+    max-width: 2.5rem;
+    margin-right: 0.75rem;
+}
+.card-title{
+    line-height: 2.7rem;
+}
+
+#origami-progress,
+#photoshop-progress,
+#HTML-progress,
+#afterEffects-progress{
+    background-color: #5c6791;
+}
+
+#flinto-progress,
+#sketch-progress,
+#animation-progress,
+#inDesign-progress{
+    background-color: #6f7983;
+}
+
+#adobeXD-progress,
+#illustrator-progress,
+#js-progress,
+#premiere-progress{
+    background-color: #53758f;
+}
+
+#zeplin-progress,
+#bootstrap-progress{
+    background-color:#8790b3;
+}
+
+.card-deck{
+    margin-top: 2rem;
 }
 
 /*Contacts Screen*/

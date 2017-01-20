@@ -10,21 +10,21 @@
     'use strict';
 
     $.fn.pagepiling = function (custom) {
-        var PP = $.fn.pagepiling;
-        var container = $(this);
-        var lastScrolledDestiny;
-        var lastAnimation = 0;
-        var isTouch = (('ontouchstart' in window) || (navigator.msMaxTouchPoints > 0) || (navigator.maxTouchPoints));
-        var touchStartY = 0, touchStartX = 0, touchEndY = 0, touchEndX = 0;
-        var scrollings = [];
+        let PP = $.fn.pagepiling;
+        let container = $(this);
+        let lastScrolledDestiny;
+        let lastAnimation = 0;
+        let isTouch = (('ontouchstart' in window) || (navigator.msMaxTouchPoints > 0) || (navigator.maxTouchPoints));
+        let touchStartY = 0, touchStartX = 0, touchEndY = 0, touchEndX = 0;
+        let scrollings = [];
 
         //Defines the delay to take place before being able to scroll to the next section
         //BE CAREFUL! Not recommened to change it under 400 for a good behavior in laptops and
         //Apple devices (laptops, mouses...)
-        var scrollDelay = 600;
+        let scrollDelay = 600;
 
         // Create some defaults, extending them with any options that were provided
-        var options = $.extend(true, {
+        let options = $.extend(true, {
             direction: 'vertical',
             menu: null,
             verticalCentered: true,
@@ -100,7 +100,7 @@
         * Moves sectio up
         */
         PP.moveSectionUp = function () {
-            var prev = $('.pp-section.active').prev('.pp-section');
+            let prev = $('.pp-section.active').prev('.pp-section');
 
             //looping to the bottom if there's no more sections above
             if (!prev.length && options.loopTop) {
@@ -116,7 +116,7 @@
         * Moves sectio down
         */
         PP.moveSectionDown = function () {
-            var next = $('.pp-section.active').next('.pp-section');
+            let next = $('.pp-section.active').next('.pp-section');
 
             //looping to the top if there's no more sections below
             if(!next.length && options.loopBottom){
@@ -132,7 +132,7 @@
         * Moves the site to the given anchor or index
         */
         PP.moveTo = function (section){
-            var destiny = '';
+            let destiny = '';
 
             if(isNaN(section)){
                 destiny = $(document).find('[data-anchor="'+section+'"]');
