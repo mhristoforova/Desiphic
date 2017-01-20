@@ -115,7 +115,32 @@ h1{
     margin-left:0;
     padding-left: 0;
 }
-.caption-hover {
+
+.quote{
+    font-family: "Montserrat Bold", sans-serif;
+    color: #5c6791;
+    padding:  0 1.25rem;
+    line-height: 5rem;
+}
+
+.download-resume,
+.download-resume a{
+    font-family: "Helvetica Neue Light", sans-serif;
+    border: 3px solid #5c6791;
+    border-radius: 8px;
+    background: none;
+    color: #5c6791 !important;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+}
+
+.download-resume:hover,
+.download-resume a:hover{
+    background: #5c6791;
+    border-color: #5c6791;
+    color: white !important;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 /*Skills Screens*/
